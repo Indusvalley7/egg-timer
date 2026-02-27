@@ -108,7 +108,7 @@ Enjoy cooking your eggs! 🍳
 
 ## Screenshots
 
-<img width="418" height="628" alt="Screenshot 2026-02-27 at 6 04 45 PM" src="https://github.com/user-attachments/assets/e5e21325-62ae-41fb-8c65-2a57c55244a7" />
+<img width="421" height="635" alt="Screenshot 2026-02-27 at 6 07 53 PM" src="https://github.com/user-attachments/assets/983a1b09-4950-43e4-a07b-15f4f3610b65" />
 
 <img width="418" height="634" alt="Screenshot 2026-02-27 at 6 06 01 PM" src="https://github.com/user-attachments/assets/20bfe17d-0827-4a06-8647-8d2c26f98326" />
 
