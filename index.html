@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#ffcf6d" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" /> 
+    <title>Egg Timer</title>
+
+    <!-- Pixel font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="topbar">
+        <div class="brand">EggTimer</div>
+        <div class="window-buttons">
+          <button class="win-btn" aria-label="minimize"></button>
+          <button class="win-btn" aria-label="close"></button>
+        </div>
+      </header>
+
+      <main class="screen" id="screen-choose">
+
+        <h1 class="title">What are we making today?</h1>
+
+        <section class="grid" aria-label="Egg options">
+          <button class="card" data-egg="soft">
+            <div class="egg-art"><img src="soft-egg.png" alt="Soft Boiled"></div>
+            <div class="card-label">Soft Boiled</div>
+          </button>
+
+          <button class="card" data-egg="hard">
+            <div class="egg-art"><img src="hard-egg.png" alt="Hard Boiled"></div>
+            <div class="card-label">Hard Boiled</div>
+          </button>
+
+          <button class="card" data-egg="fried">
+            <div class="egg-art"><img src="fried-egg.png" alt="Fried"></div>
+            <div class="card-label">Fried</div>
+          </button>
+
+          <button class="card" data-egg="scrambled">
+            <div class="egg-art"><img src="sunny-side-egg.png" alt="Scrambled"></div>
+            <div class="card-label">Scrambled</div>
+          </button>
+        </section>
+      </main>
+     <main class="screen hidden" id="screen-timer">
+        <h2 class="subtitle" id="timer-title">Soft-boiled Egg</h2>
+        <div class="timer-face" id="timer-face"><img src="soft-egg.png" alt="Egg"></div>
+        <div class="time" id="time-display">00:00</div>
+        <div class="controls">
+            <button class="btn primary" id="btn-start">Start</button>
+            <button class="btn" id="btn-reset">Reset</button>
+        </div>
+        <button class="btn link" id="btn-back">Back</button>
+     </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

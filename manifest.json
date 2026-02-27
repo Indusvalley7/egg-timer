@@ -1,0 +1,20 @@
+{
+  "name": "Egg Timer",
+  "short_name": "EggTimer",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffefb0",
+  "theme_color": "#ffcf6d",
+  "icons": [
+    {
+      "src": "soft-egg.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "hard-egg.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
