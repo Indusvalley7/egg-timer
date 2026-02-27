@@ -1,4 +1,5 @@
-# Egg Timer 🥚
+# Egg Timer <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/ab335ae8-f572-443b-8963-d6f437d54442" />
+
 
 A cute and interactive Progressive Web App (PWA) for perfectly cooking your eggs! Choose your preferred egg style and let the timer do the work with satisfying visual and audio feedback.
 
